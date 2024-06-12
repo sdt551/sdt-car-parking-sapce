@@ -7,14 +7,16 @@ function Testimonial() {
   const [testimonialAll, setTestimonialAll] = useState(TestimonialData);
   const [allPerson, setAllPerson] = useState(0);
   const [val, setVal] = useState(0);
-  const filtered = () => {
-    const filteritme = TestimonialData.filter((item, index) => index !== val);
-    setTestimonialAll(filteritme);
-  };
 
   useEffect(() => {
-    filtered();
-  }, []);
+    const filtered = () => {
+      const filteritme = TestimonialData.filter((item, index) => index !== val);
+      setTestimonialAll(filteritme);
+    };
+    if (val) {
+      filtered();
+    }
+  }, [val]);
 
   const selectPerson = (i) => {
     setVal(i);
