@@ -1,0 +1,30 @@
+.testimonial-body .left-side .quotetion {
+  position: absolute;
+  top: 52px;
+  font-size: 20px;
+}
+.testimonial-body .left-side img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.profile {
+  position: relative;
+}
+.profile::after {
+  position: absolute;
+  content: "";
+  width: 450px;
+  height: 1px;
+  left: 20%;
+  bottom: 0;
+  background-color: rgb(167, 165, 165);
+}
+.left-side {
+  position: relative;
+}
+.left-side .arrow-iocon {
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+}

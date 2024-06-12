@@ -1,0 +1,17 @@
+ul li {
+  list-style-type: none;
+  opacity: 0.5;
+  padding: 10px 0 !important;
+  transition: all 0.5s;
+}
+.footer p {
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+.footer p:hover {
+  opacity: 1;
+}
+ul li:hover {
+  opacity: 1;
+  cursor: pointer;
+}

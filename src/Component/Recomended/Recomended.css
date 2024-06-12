@@ -1,0 +1,14 @@
+.recomended ul li {
+  line-height: 250%;
+  color: #6c6c6c;
+}
+.recomended button {
+  color: black;
+  background-color: white !important;
+  border: 2px solid #fecb21;
+  border-radius: 50px 50px;
+  transition: all 0.5s;
+}
+.recomended button:hover {
+  background-color: #fecb21 !important;
+}

@@ -1,0 +1,48 @@
+.hero {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(48, 47, 47, 0.1), rgba(59, 51, 51, 0.1)),
+    url("../../../public/img/Subtract.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero .booking {
+  position: absolute;
+  bottom: -0;
+  left: 50%;
+  transform: translate(-50%, 35%);
+  z-index: 99;
+}
+.form-select.form-select-lg {
+  outline: none;
+  background: black;
+  border: none;
+  color: white;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  color: white;
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  color: white !important;
+}
+.select-date {
+  width: 230px;
+}
+.promo-input {
+  width: 98%;
+  margin: 0 auto !important;
+  outline: none;
+  border: none;
+  border: 1px solid gray;
+  background: black;
+  line-height: 30px;
+}
+.promo-input:focus {
+  border: 1px solid aqua;
+}
+.promo-input:valid {
+  color: white;
+}
