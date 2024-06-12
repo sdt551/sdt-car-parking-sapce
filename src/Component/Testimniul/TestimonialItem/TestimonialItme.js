@@ -5,7 +5,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 function TestimonialItme({ curElm, index, selectPerson }) {
   const { name, img, expart } = curElm;
   const handleClick = (i) => {
-    selectPerson(i);
+    selectPerson(i + 1);
   };
   return (
     <div
