@@ -13,9 +13,8 @@ function Testimonial() {
       const filteritme = TestimonialData.filter((item, index) => index !== val);
       setTestimonialAll(filteritme);
     };
-    if (val) {
-      filtered();
-    }
+
+    filtered();
   }, [val]);
 
   const selectPerson = (i) => {
