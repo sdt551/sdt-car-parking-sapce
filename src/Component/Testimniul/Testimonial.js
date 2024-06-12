@@ -14,7 +14,7 @@ function Testimonial() {
 
   useEffect(() => {
     filtered();
-  }, [val]);
+  }, []);
 
   const selectPerson = (i) => {
     setVal(i);

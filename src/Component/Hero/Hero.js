@@ -2,7 +2,6 @@ import React from "react";
 import "./Hero.css";
 import Logo from "../Assets/EASY PARK.png";
 import dayjs from "dayjs";
-import { IoIosArrowDown } from "react-icons/io";
 import { DemoContainer, DemoItem } from "@mui/x-date-pickers/internals/demo";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
